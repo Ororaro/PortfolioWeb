@@ -16,8 +16,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import './Header.css'
 import { Container } from '@mui/material';
-import { NavLink } from 'react-router-dom'
-import { Link } from "react-router-dom"
+import { Link } from "@mui/material"
 const drawerWidth = 240;
 const navItems = ['Home', 'Project', 'Skills', 'Contact'];
 
@@ -37,16 +36,20 @@ function DrawerAppBar(props) {
         return (
             <Box className="list-head" key={content} >
                 <Button
-                    onClick={handleClickNav} sx={{paddingTop:{md:'0',sm:'0',xs:'20px'}, color: '#000', fontFamily: 'initial', backgroundColor: 'none' ,fontSize:'18px'}}
+                    onClick={handleClickNav} sx={{ paddingTop: { md: '0', sm: '0', xs: '20px' }, color: '#000', fontFamily: 'initial', backgroundColor: 'none', fontSize: '18px' }}
                 >{content}</Button>
             </Box>
         )
     }
     const drawer = (
         <Box sx={{ textAlign: 'center' }}>
-            <Typography variant="h6" sx={{ my: 2 ,fontFamily:'initial'}}>
-                Portfolio
+
+            <Typography variant="h6" sx={{ my: 2, fontFamily: 'initial' }}>
+                <Link href="/" sx={{textDecoration:'none',color:'black'}} >
+                    Portfolio
+                </Link>
             </Typography>
+
             <Divider />
             {navItems.map(nav => renderNavLink(nav))}
         </Box>
@@ -61,7 +64,7 @@ function DrawerAppBar(props) {
                         aria-label="open drawer"
                         edge="start"
                         onClick={handleDrawerToggle}
-                        sx={{ mr: 2, color: '#000',display:{md:'none'} }}
+                        sx={{ mr: 2, color: '#000', display: { md: 'none' } }}
                     >
                         <MenuIcon />
                     </IconButton>
@@ -70,7 +73,7 @@ function DrawerAppBar(props) {
                         component="div"
                         sx={{ flexGrow: 1, display: { xs: 'block', sm: 'block' }, textAlign: { md: 'left', sm: 'center', xs: 'center' }, color: '#000', fontFamily: 'initial' }}
                     >
-                       <a href='/' style={{textDecoration:'none',color:'#000'}}> Portfolio </a>
+                        <Link href="/" style={{ textDecoration: 'none', color: '#000' }}> Portfolio </Link>
                     </Typography>
                     <Box sx={{ display: { md: 'flex', xs: 'none', sm: 'none' } }}>
                         {navItems.map(nav => renderNavLink(nav))}
