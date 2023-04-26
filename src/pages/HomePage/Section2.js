@@ -31,9 +31,8 @@ const Section2 = () => {
                   <Typography variant='h4'><span style={{ fontWeight: '700' }}>Build With : </span>React , Material UI (MUI)</Typography>
                   <Box sx={{ display: 'flex' }}>
                     <Typography variant='h4'>Demo Web :</Typography>
-                    <Link href="https://ororaro.github.io/NetflixClone/"><IosShareIcon sx={{ margin: '20px', fontSize: '40px' }} /></Link>
+                    <Link href="https://ororaro.github.io/NetflixClone/" target='_blank'><IosShareIcon sx={{ margin: '20px', fontSize: '40px' }} /></Link>
                   </Box>
-
                 </Box>
               </Card>
             </Grid>
