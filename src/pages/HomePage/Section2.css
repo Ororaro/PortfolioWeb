@@ -1,0 +1,36 @@
+
+.control-port h1{
+    text-align: center;
+    letter-spacing: 7px;
+    font-family: 'initial';
+    font-weight: 900;
+   
+}
+.control-item img{
+    object-fit: cover;
+}
+
+.control-item h3{
+    padding-top: 22px;
+    text-align: center;
+    letter-spacing: 7px;
+    font-family: 'initial';
+    font-weight: 600;
+}
+.control-item h5{
+    letter-spacing: 1px;
+    font-family: 'initial';
+    padding-top: 2rem;
+}
+.control-item h4{
+    letter-spacing: 1px;
+    font-family: 'initial';
+    padding-top: 2rem;
+    font-size: 20px;
+}
+.control-item{
+    padding-top: 3rem;
+}
+.control-item img:hover{
+    transform: scale(1.07);
+}

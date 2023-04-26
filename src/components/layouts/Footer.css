@@ -1,0 +1,12 @@
+.footer-resume {
+  margin-top: 2rem;
+  padding-top: 8rem;
+}
+
+.footer-text {
+  display: flex;
+  padding: 2rem;
+  background-color: #000112;
+  align-items: center;
+  justify-content: center;
+}

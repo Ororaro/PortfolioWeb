@@ -1,0 +1,46 @@
+.labeldata input {
+    width: 100%;
+    padding: 15px;
+}
+
+.labeldata textarea {
+    width: 100%;
+    height: 200px;
+    padding: 15px;
+}
+.btnContact{
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+}
+.btnContact .MuiButtonBase-root {
+    background-image: linear-gradient(to top, #5f72bd 0%, #9b23ea 100%);
+}
+
+.contact-icon {
+    display: flex;
+}
+
+.contact-icon h5 {
+    font-family: initial;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.contact-icon h4 {
+    font-family: initial;
+    font-size: 18px;
+    color: gray;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.contact-icon .MuiSvgIcon-root {
+    font-size: 40px;
+    color: #fff;
+    background-image: linear-gradient(to top, #5f72bd 0%, #9b23ea 100%);
+    border-radius: 50%;
+}
+
+.contact-icon .contact-text {
+    margin-left: 10px;
+}
