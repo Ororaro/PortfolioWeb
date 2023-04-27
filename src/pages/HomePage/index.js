@@ -5,7 +5,7 @@ import Section1 from './Section1';
 import Section2 from './Section2';
 const index = () => {
     return (
-        <Box sx={{width:'100% !important'}}>
+        <Box >
             <Section1/>
             <Section2/>
         </Box>

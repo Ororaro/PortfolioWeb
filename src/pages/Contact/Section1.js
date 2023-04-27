@@ -1,12 +1,14 @@
 import React from 'react'
 import './Section1.css'
 import { Box, Button, Container, Grid, Link, Typography } from '@mui/material'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { addDoc, collection } from 'firebase/firestore'
 import { db } from '../../firebaseConfig'
 import CallIcon from '@mui/icons-material/Call';
 import EmailIcon from '@mui/icons-material/Email';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import "aos/dist/aos.css";
+import Aos from 'aos';
 const Contact = () => {
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
@@ -14,6 +16,7 @@ const Contact = () => {
     const [userNameColor, setUserNameColor] = useState('')
     const [emailColor, setEmailColor] = useState('')
     const [messageColor, setMessageColor] = useState('')
+    const [checkCorrect, setCheckCorrect] = useState('')
     const userCollectionRef = collection(db, "contactdata")
 
     const validateForm = (e) => {
@@ -47,18 +50,25 @@ const Contact = () => {
                 email: email,
                 message: message
             }).then(() => {
-                if (!alert('Submit Successfully!')) {
-                    setName('')
-                    setEmail('')
-                    setMessage('');
-                }
+                setCheckCorrect("Submit Successfully!")
+                setName('')
+                setEmail('')
+                setMessage('');
             })
+
         }
     }
-
+    useEffect(() => {
+        const timeOut = setTimeout(() => {
+            setCheckCorrect('')
+        }, 3000)
+        return () => clearTimeout(timeOut)
+        // eslint-disable-next-line 
+    }, [checkCorrect])
     return (
         <Container maxWidth="lg">
-            <Typography variant='h2' sx={{ fontSize: '50px', fontWeight: '700', fontFamily: 'initial', padding: '20px', textAlign: 'center', marginBottom: '15px', letterSpacing: '7px' }}>Contact Me</Typography>
+            <Typography variant='h2' sx={{ fontSize: { md: '48px', sm: '48px', xs: '35px' }, fontWeight: '700', fontFamily: 'initial', padding: '20px', textAlign: 'center', marginBottom: '15px', letterSpacing: '7px' }}>Contact Me</Typography>
+            <Typography variant='h2' sx={{ fontSize: { md: '48px', sm: '48px', xs: '35px' }, fontWeight: '700', fontFamily: 'initial', textAlign: 'center', marginBottom: '15px', letterSpacing: '4px', color: 'green' }}>{checkCorrect}</Typography>
             <Box className="form" id='contactSection' >
                 <form onSubmit={validateForm}>
                     <Grid container >
@@ -122,14 +132,10 @@ const Contact = () => {
                                         <Typography variant='h5'>Github</Typography>
                                         <Typography variant='h4'><Link sx={{ textDecoration: 'none', color: 'gray' }} href="https://github.com/Ororaro">https://github.com/Ororaro</Link></Typography>
                                     </Box>
-
                                 </Box>
                             </Grid>
-
                         </Grid>
-
                     </Grid>
-
                 </form>
             </Box>
         </Container>
