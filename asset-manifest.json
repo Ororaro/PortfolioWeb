@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "/PortfolioWeb/static/css/main.3f6c3723.css",
-    "main.js": "/PortfolioWeb/static/js/main.44b30f8d.js",
+    "main.js": "/PortfolioWeb/static/js/main.0a40a19c.js",
     "static/js/787.f6e152f7.chunk.js": "/PortfolioWeb/static/js/787.f6e152f7.chunk.js",
     "static/media/Blue Protocol.png": "/PortfolioWeb/static/media/Blue Protocol.db8c2e550dc3041e3742.png",
     "static/media/LazadaAdapt.png": "/PortfolioWeb/static/media/LazadaAdapt.189c9342d8591c06a63f.png",
     "static/media/NetflixShowApart.jpeg": "/PortfolioWeb/static/media/NetflixShowApart.ecff4c9c0a086226382f.jpeg",
     "static/media/PokemonAPI.png": "/PortfolioWeb/static/media/PokemonAPI.d529ed7dad6f85e456ba.png",
     "static/media/css.png": "/PortfolioWeb/static/media/css.99426a611bd5b768e71d.png",
-    "static/media/logo.svg": "/PortfolioWeb/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/PortfolioWeb/index.html",
     "main.3f6c3723.css.map": "/PortfolioWeb/static/css/main.3f6c3723.css.map",
-    "main.44b30f8d.js.map": "/PortfolioWeb/static/js/main.44b30f8d.js.map",
+    "main.0a40a19c.js.map": "/PortfolioWeb/static/js/main.0a40a19c.js.map",
     "787.f6e152f7.chunk.js.map": "/PortfolioWeb/static/js/787.f6e152f7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3f6c3723.css",
-    "static/js/main.44b30f8d.js"
+    "static/js/main.0a40a19c.js"
   ]
 }
