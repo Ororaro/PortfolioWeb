@@ -121,7 +121,7 @@ const Contact = () => {
                                     <EmailIcon />
                                     <Box className="contact-text">
                                         <Typography variant='h5'>Email</Typography>
-                                        <Typography variant='h4'>ch.natpakal_st@tni.ac.th</Typography>
+                                        <Typography variant='h4'>ch.natpakal@gmail.com</Typography>
                                     </Box>
                                 </Box>
                             </Grid>
