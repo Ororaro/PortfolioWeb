@@ -5,6 +5,7 @@ import NetflixImg from '../../img/NetflixShowApart.jpeg'
 import LazadaImg from '../../img/LazadaAdapt.png'
 import BlueProtocolImg from '../../img/Blue Protocol.png'
 import PokemonAPIImg from '../../img/PokemonAPI.png'
+import LandingPage from '../../img/landingPage.png'
 import "aos/dist/aos.css";
 import Aos from 'aos';
 import IosShareIcon from '@mui/icons-material/IosShare';
@@ -105,7 +106,7 @@ const Section2 = () => {
             </Grid>
             <Grid item md={6} sm={6} xs={12} >
               <Box data-aos="flip-right" >
-                <img src={NetflixImg} width='100%' height="100%" />
+                <img src={LandingPage} width='100%' height="100%" />
               </Box>
             </Grid>
           </Grid>
