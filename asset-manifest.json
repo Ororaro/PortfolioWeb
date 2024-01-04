@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PortfolioWeb/static/css/main.3f6c3723.css",
-    "main.js": "/PortfolioWeb/static/js/main.9cba96e7.js",
+    "main.js": "/PortfolioWeb/static/js/main.6434b47c.js",
     "static/js/787.f6e152f7.chunk.js": "/PortfolioWeb/static/js/787.f6e152f7.chunk.js",
     "static/media/Blue Protocol.png": "/PortfolioWeb/static/media/Blue Protocol.113dfb36463d13f01d13.png",
     "static/media/LazadaAdapt.png": "/PortfolioWeb/static/media/LazadaAdapt.5c89a8be7bcfcac84864.png",
@@ -10,11 +10,11 @@
     "static/media/css.png": "/PortfolioWeb/static/media/css.99426a611bd5b768e71d.png",
     "index.html": "/PortfolioWeb/index.html",
     "main.3f6c3723.css.map": "/PortfolioWeb/static/css/main.3f6c3723.css.map",
-    "main.9cba96e7.js.map": "/PortfolioWeb/static/js/main.9cba96e7.js.map",
+    "main.6434b47c.js.map": "/PortfolioWeb/static/js/main.6434b47c.js.map",
     "787.f6e152f7.chunk.js.map": "/PortfolioWeb/static/js/787.f6e152f7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3f6c3723.css",
-    "static/js/main.9cba96e7.js"
+    "static/js/main.6434b47c.js"
   ]
 }
