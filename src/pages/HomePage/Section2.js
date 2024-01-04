@@ -36,6 +36,11 @@ const Section2 = () => {
                 </Box>
               </Card>
             </Grid>
+            <Grid item md={6} sm={6} xs={12} order={{ md: 2, xs: 1 }}>
+              <Box data-aos="flip-right">
+                <img src={LazadaImg} width='100%' height="100%" />
+              </Box>
+            </Grid>
             <Grid item md={6} sm={6} xs={12} order={{ xs: 2 }} >
               <Card variant="outlined" sx={{ position: 'relative', height: '100%' }} >
                 <Box sx={{ padding: '15px' }}>
@@ -49,12 +54,6 @@ const Section2 = () => {
                 </Box>
               </Card>
             </Grid>
-            <Grid item md={6} sm={6} xs={12} order={{ md: 2, xs: 1 }}>
-              <Box data-aos="flip-right">
-                <img src={LazadaImg} width='100%' height="100%" />
-              </Box>
-            </Grid>
-
             <Grid item md={6} sm={6} xs={12}  >
               <Box data-aos="flip-left" >
                 <img src={BlueProtocolImg} width='100%' />
@@ -86,9 +85,27 @@ const Section2 = () => {
                 </Box>
               </Card>
             </Grid>
-            <Grid item md={6} sm={6} xs={12} order={{ md: 2, xs: 2 }}>
+            <Grid item md={6} sm={6} xs={12} order={{ md: 3, xs: 2 }}>
               <Box data-aos="flip-right">
                 <img src={PokemonAPIImg} width='100%' />
+              </Box>
+            </Grid>
+            <Grid item md={6} sm={6} xs={12}>
+              <Card variant="outlined" sx={{ position: 'relative', height: '100%' }}>
+                <Box sx={{ padding: '15px' }}>
+                  <Typography variant='h3' sx={{fontSize:{md:"40px",sm:"40px",xs:'35px'}}}>LandingPageClone</Typography>
+                  <Typography variant='h5'>I have create this WebSite for Practice skill Clone</Typography>
+                  <Typography variant='h4'><span style={{ fontWeight: '700' }}>Build With : </span>React , Material UI (MUI)</Typography>
+                  <Box sx={{ display: 'flex' }}>
+                    <Typography variant='h4'>Demo Web :</Typography>
+                    <Link href="https://ororaro.github.io/LandingPageClone/" target='_blank'><IosShareIcon sx={{ margin: '20px', fontSize: '40px' }} /></Link>
+                  </Box>
+                </Box>
+              </Card>
+            </Grid>
+            <Grid item md={6} sm={6} xs={12} >
+              <Box data-aos="flip-right" >
+                <img src={NetflixImg} width='100%' height="100%" />
               </Box>
             </Grid>
           </Grid>
