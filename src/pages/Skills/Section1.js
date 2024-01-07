@@ -35,7 +35,7 @@ const Section1 = () => {
                     <Grid item md={4} sm={4} xs={6}>
                         <Card data-aos="fade-up" sx={{ boxShadow:'2px 2px 2px 2px',height: '100%', textAlign: 'center', paddingTop: '2rem' }}>
                             <img src={`https://cdn1.iconfinder.com/data/icons/programing-development-8/24/react_logo-512.png`} width="60%" />
-                            <Typography sx={{fontFamily:'initial',padding:'10px 0'}}>React</Typography>
+                            <Typography sx={{fontFamily:'initial',padding:'10px 0'}}>React.js</Typography>
                         </Card>
                     </Grid>
                     <Grid item md={4} sm={4} xs={6}>
@@ -48,6 +48,18 @@ const Section1 = () => {
                         <Card data-aos="fade-up" sx={{boxShadow:'2px 2px 2px 2px', height: '100%', textAlign: 'center', paddingTop: '2rem' }}>
                             <img src={`https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png`} width="75%" />
                             <Typography sx={{fontFamily:'initial',padding:'10px 0'}}>Bootstrap</Typography>
+                        </Card>
+                    </Grid>
+                    <Grid item md={4} sm={4} xs={6}>
+                        <Card data-aos="fade-up" sx={{boxShadow:'2px 2px 2px 2px', height: '100%', textAlign: 'center', paddingTop: '2rem' }}>
+                            <img src={`https://upload.wikimedia.org/wikipedia/commons/f/f1/Vue.png?20170311074507`} width="75%" />
+                            <Typography sx={{fontFamily:'initial',padding:'10px 0'}}>Vue.js</Typography>
+                        </Card>
+                    </Grid>
+                    <Grid item md={4} sm={4} xs={6}>
+                        <Card data-aos="fade-up" sx={{boxShadow:'2px 2px 2px 2px', height: '100%', textAlign: 'center', paddingTop: '2rem' }}>
+                            <img src={`https://seeklogo.com/images/A/ant-design-logo-EAB6B3D5D9-seeklogo.com.png`} width="75%" />
+                            <Typography sx={{fontFamily:'initial',padding:'10px 0'}}>Ant Design</Typography>
                         </Card>
                     </Grid>
                 </Grid>
